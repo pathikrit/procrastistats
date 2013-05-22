@@ -1,0 +1,25 @@
+# Git Ignore compiled from https://github.com/github/gitignore
+
+# Logs and databases #
+*.log
+pocket.json
+
+# IntelliJ files #
+*.iml
+*.ipr
+*.iws
+.idea/
+atlassian-ide-plugin.xml
+
+# OSX files #
+.DS_Store
+.Spotlight-V100
+.Trashes
+
+# Node.js stuff #
+node_modules/
+npm-debug.log
+
+# Config stuff
+runtime.json
+development.coffee

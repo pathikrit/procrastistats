@@ -1,0 +1,23 @@
+{
+  "name": "procrastistats",
+  "version": "0.0.1",
+  "author": "Pathikrit Bhowmick <pathikritbhowmick@msn.com>",
+  "description": "Stats for Pocket",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pathikrit/procrastistats.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pathikrit/procrastistats/issues",
+    "email": "pathikritbhowmick@msn.com"
+  },
+  "main": "app.coffee",
+  "dependencies": {
+    "coffee-script": "1.3.x",
+    "request": "2.21.x"
+  },
+  "engines": {
+    "node": "0.8.x",
+    "npm": "*"
+  }
+}
