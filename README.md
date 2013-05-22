@@ -1,4 +1,5 @@
-A simple command line tool to download your [Pocket](http://getpocket.com) (formerly Read It Later) data
+[Pocket](http://getpocket.com) (formerly Read It Later):
+-----
 
 Initial one time setup:
 
@@ -14,3 +15,12 @@ Subsequently:
 
 0. Simply run app by doing `app.coffee`
 0. All your data will be downloaded to `pocket.json` file
+
+---
+
+TODO:
+
+0. Get rid of `oauth.sh`
+0. Hook up to [dc.js](http://nickqizhu.github.io/dc.js/)
+0. Hook up to [Instapaper](http://instapaper.org)
+0. Web based
