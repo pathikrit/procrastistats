@@ -2,7 +2,7 @@
 
 # Logs and databases #
 *.log
-pocket.json
+pocket.csv
 
 # IntelliJ files #
 *.iml

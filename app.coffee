@@ -18,5 +18,9 @@ fetch = (accessToken, count = 5000, offset = 0, result = []) ->
     if numItems is count
       fetch accessToken, count, offset + count, result
     else
-      (require 'fs').writeFileSync 'pocket.json', JSON.stringify(result, null, 2)
+      keys = ['item_id', 'given_url', 'given_title', 'time_added', 'time_read', 'time_favorited', 'time_updated']
+      json2csv = require 'json2csv'
+      fs = require 'fs'
+      json2csv {data: result, fields: keys},  (err, csv) -> fs.writeFileSync 'pocket.csv', csv
   )
+
